@@ -10,8 +10,13 @@ class Car:
     def describe(self):
         return f"This car is a {self.year} {self.make} {self.model}."
 
-# Create an instance of the Car class
+# Create instances of the Car class
 my_car = Car("Toyota", "Corolla", 2020)
-
-# Print the description of the car
 print(my_car.describe())
+
+# More test instances
+car2 = Car("Ford", "Mustang", 1969)
+print(car2.describe())
+
+car3 = Car("Tesla", "Model S", 2023)
+print(car3.describe())

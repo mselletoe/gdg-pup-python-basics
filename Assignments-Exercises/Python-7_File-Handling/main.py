@@ -1,3 +1,5 @@
+# main.py
+
 # Step 1: Read contents from a file
 try:
     with open('sample.txt', 'r') as file:
